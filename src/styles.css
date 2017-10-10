@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+.header {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.social-logos {
+	height: 46px;
+	width: 46px;
+}
