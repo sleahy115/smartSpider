@@ -8,3 +8,8 @@
 	height: 46px;
 	width: 46px;
 }
+
+.main-img {
+	display: flex;
+	align-content: center;
+}
