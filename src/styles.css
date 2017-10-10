@@ -4,12 +4,24 @@
 	align-content: center;
 }
 
+.icon-options {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.main-block {
+	display: flex;
+	align-content: space-around;
+}
+
+.main-img {
+	width: 100%;
+}
+
 .social-logos {
 	height: 46px;
 	width: 46px;
 }
 
-.main-img {
-	display: flex;
-	align-content: center;
-}
+
