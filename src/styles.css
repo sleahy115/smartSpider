@@ -10,6 +10,11 @@
 	align-content: center;
 }
 
+.links {
+	display: flex;
+	justify-content: space-around;
+}
+
 .main-block {
 	display: flex;
 	align-content: space-around;
@@ -22,6 +27,11 @@
 .social-logos {
 	height: 46px;
 	width: 46px;
+}
+
+.spider-logo-bottom {
+	padding-left: 35%;
+	padding-right: 35%;
 }
 
 .sponsers {
