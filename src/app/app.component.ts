@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { routing } from './app.routing';
+import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
