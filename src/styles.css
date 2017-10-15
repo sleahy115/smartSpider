@@ -1,7 +1,7 @@
 .header {
 	display: flex;
 	flex-direction: row;
-	align-content: center;
+	justify-content: space-between;
 }
 
 .icon-options {
@@ -11,8 +11,30 @@
 }
 
 .links {
-	display: flex;
-	justify-content: space-around;
+	padding: 10px;
+	color: rgb(33,120,128);
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+}
+
+.links a {
+	text-decoration: none;
+}
+
+.links a:visited {
+	color: rgb(33,120,128);
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: lightgray;
+}
+
+.logo img {
+	height: 130px;
+	widows: 266px;
 }
 
 .main-block {
@@ -22,6 +44,16 @@
 
 .main-img {
 	width: 100%;
+}
+
+.search-box {
+	background-color: lightgrey;
+}
+
+.social {
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 .social-logos {
