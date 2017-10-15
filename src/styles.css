@@ -34,7 +34,7 @@
 
 .logo img {
 	height: 130px;
-	widows: 266px;
+	width: 266px;
 }
 
 .main-block {
@@ -44,6 +44,24 @@
 
 .main-img {
 	width: 100%;
+}
+
+.main-block {
+	display: flex;
+	justify-content: center;
+}
+
+.main-block input {
+	background-color: lightgray;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+.main-block img {
+	height: 41px;
+	width: 31px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .search-box {
