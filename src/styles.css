@@ -4,10 +4,31 @@
 	justify-content: space-between;
 }
 
+.icon-img {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .icon-options {
 	display: flex;
 	flex-direction: row;
-	align-content: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+.icon-options img {
+	height: 127.99px; 
+	width: 157.05px;
+}
+
+.icon-text {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .links {
