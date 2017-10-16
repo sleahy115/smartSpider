@@ -4,8 +4,14 @@
 	justify-content: space-between;
 }
 
+.headline {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-feature-settings: liga;
+	font-size: 30px;
+}
+
 .icon-img {
-	width: 100%;
+	width: 75%;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -29,6 +35,10 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	font-size: 14px;
+	color: black;
+	font-weight: 900;
+	font-family: arial, sans-serif;
 }
 
 .links {
